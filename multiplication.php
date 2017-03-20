@@ -9,11 +9,11 @@
 	<table>
 		<?php 
 		//create first row of table headers 
-		echo '<tr>';
+			echo '<tr>';
 		echo '<th>&nbsp;</th>';
 			for ($number = 1; $number <=12; $number++) :
 				echo "<th> $number <br> </th>" ;
-			endfor;
+		endfor;
 				echo '</tr>';
 		// create remaining rows 
 			for ($row = 1, $number = 1; $row <= 12; $row++) :
@@ -24,10 +24,10 @@
 			}
 			while ($number <= 12 ) :
 				echo '<td>' . $row * $number++ . '</td>';
-			endwhile;
+		endwhile;
 				echo '</tr>';
 				$number = 1;
-			endfor;
+		endfor;
 		?>
 	</table>
 </body>
