@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Multiplication table</title>
+		<title>Multiplication table exercise</title>
 	</head>
 	<body>
 		<table>
